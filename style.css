@@ -1,0 +1,78 @@
+@media (min-width: 1200px){ /* custom 5 cột trên 1 hàng bằng bootstrap */
+.col-xl-20 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    }
+}
+
+
+
+/* modal_form */
+.modal_form .modal-content{
+    border-radius: 15px;
+}
+.modal_form .modal-header{
+    position: relative;
+}
+.modal_form .modal-header .close{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #000;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    color: #fff;
+    border-radius: 50%;
+}
+.modal_form .modal-header .inner_head{
+    text-align: center;
+    width: 100%;
+}
+.modal_form .modal-header .inner_head img{
+    height: 42px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.modal_form .modal-header .inner_head .inner_title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.modal_form .modal-body input{
+    height: 50px;
+}
+.modal_form .modal-body button{
+    height: 50px;
+    width: 100%;
+    border-radius: 45px;
+}
+/* end modal_form */
+
+
+
+
+/* Product item*/
+.product_item{
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+/* end product item */
+
+
+
+
+.nav-tabs .nav-link{
+    font-weight: 600;
+}
+.nav-tabs .nav-link.active{
+    color: blue;
+    border-color: transparent; /* màu trong suốt */
+}
